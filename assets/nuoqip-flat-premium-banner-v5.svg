@@ -1,0 +1,82 @@
+<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NUOQI_P 扁平高级风格主页横幅 v5</title>
+  <desc id="desc">一个扁平、对称、低噪音的二次元游戏开发者主页横幅。</desc>
+  <defs>
+    <style>
+      .breathe { animation: breathe 5.6s ease-in-out infinite; }
+      .breathe-slow { animation: breathe 7s ease-in-out infinite; }
+      @keyframes breathe { 0%,100% { opacity: .84; } 50% { opacity: 1; } }
+    </style>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#090914"/>
+      <stop offset="0.5" stop-color="#111328"/>
+      <stop offset="1" stop-color="#081D29"/>
+    </linearGradient>
+    <linearGradient id="border" x1="82" y1="62" x2="1198" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF5CCD"/>
+      <stop offset="0.52" stop-color="#8F6CFF"/>
+      <stop offset="1" stop-color="#25D7E8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="102" y1="82" x2="1178" y2="358" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#16122A"/>
+      <stop offset="1" stop-color="#0B2030"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="440" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="30" fill="url(#grid)"/>
+
+  <rect x="82" y="62" width="1116" height="316" rx="30" fill="url(#panel)" stroke="url(#border)" stroke-width="2.5"/>
+  <rect x="106" y="86" width="1068" height="268" rx="22" stroke="#FFFFFF" stroke-opacity="0.1"/>
+
+  <g class="breathe-slow">
+    <path d="M126 110H214" stroke="#FF5CCD" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1066 330H1154" stroke="#25D7E8" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(142 122)">
+    <rect width="132" height="132" rx="28" fill="#111327" stroke="#FF5CCD" stroke-opacity="0.8" stroke-width="2"/>
+    <rect x="28" y="44" width="76" height="46" rx="18" fill="#F7F3FF"/>
+    <path d="M44 67H62M53 58V76" stroke="#111327" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="79" cy="66" r="6" fill="#25D7E8"/>
+    <circle cx="93" cy="76" r="6" fill="#FF5CCD"/>
+    <path class="breathe" d="M66 84C56 76 42 83 42 96C42 109 59 116 66 126C73 116 90 109 90 96C90 83 76 76 66 84Z" fill="#FF80D8"/>
+    <circle cx="30" cy="30" r="5" fill="#25D7E8"/>
+    <circle cx="102" cy="30" r="5" fill="#FFD76B"/>
+  </g>
+
+  <g>
+    <text x="330" y="170" fill="#F7F3FF" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="0">NUOQI_P</text>
+    <text x="334" y="224" fill="#D8E5FF" font-family="Consolas, Menlo, Microsoft YaHei, monospace" font-size="22" font-weight="700" letter-spacing="0">C# · Java · Game Systems · Anime Mod</text>
+  </g>
+
+  <g transform="translate(334 274)">
+    <rect width="132" height="38" rx="19" fill="#1B1730" stroke="#FF5CCD" stroke-opacity="0.72"/>
+    <text x="25" y="25" fill="#F7F3FF" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="800">GAME DEV</text>
+    <circle class="breathe" cx="112" cy="19" r="6" fill="#25D7E8"/>
+
+    <rect x="154" width="132" height="38" rx="19" fill="#102638" stroke="#25D7E8" stroke-opacity="0.72"/>
+    <text x="181" y="25" fill="#F7F3FF" font-family="Consolas, Menlo, monospace" font-size="14" font-weight="800">MOD LAB</text>
+  </g>
+
+  <g transform="translate(914 122)">
+    <rect width="220" height="132" rx="24" fill="#111827" stroke="#25D7E8" stroke-opacity="0.36"/>
+    <rect x="20" y="22" width="180" height="34" rx="17" fill="#0D0B1B" stroke="#FF5CCD" stroke-opacity="0.5"/>
+    <circle cx="44" cy="39" r="6" fill="#FF5CCD"/>
+    <circle cx="66" cy="39" r="6" fill="#25D7E8"/>
+    <circle cx="88" cy="39" r="6" fill="#FFD76B"/>
+    <text x="24" y="82" fill="#25D7E8" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="800">STATUS</text>
+    <rect x="24" y="98" width="82" height="7" rx="3.5" fill="#FF5CCD" opacity="0.84"/>
+    <rect x="116" y="98" width="60" height="7" rx="3.5" fill="#25D7E8" opacity="0.84"/>
+    <rect x="24" y="116" width="152" height="7" rx="3.5" fill="#FFFFFF" opacity="0.16"/>
+  </g>
+
+  <g class="breathe" opacity="0.9">
+    <circle cx="121" cy="318" r="7" fill="#FF5CCD"/>
+    <circle cx="1159" cy="122" r="7" fill="#25D7E8"/>
+    <circle cx="640" cy="344" r="4" fill="#FFD76B"/>
+  </g>
+</svg>
