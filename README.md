@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/nuoqip-anime-banner.svg" alt="NUOQI_P 赛博二次元游戏开发者横幅" width="100%" />
+<img src="./assets/nuoqip-cyber-anime-banner.svg" alt="NUOQI_P 赛博二次元游戏开发者横幅" width="100%" />
 
 # NUOQI_P
 
