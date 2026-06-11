@@ -1,16 +1,13 @@
 <svg width="980" height="72" viewBox="0 0 980 72" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Kawaii animated sparkle divider</title>
+  <title id="title">Kawaii animated sparkle divider v2</title>
   <desc id="desc">A cute animated neon divider with hearts and stars.</desc>
   <defs>
     <style>
-      .dash { stroke-dasharray: 20 16; animation: move 8s linear infinite; }
-      .float { animation: float 3s ease-in-out infinite; transform-origin: center; }
-      .float2 { animation: float2 3.8s ease-in-out infinite; transform-origin: center; }
-      .twinkle { animation: twinkle 1.7s ease-in-out infinite; transform-origin: center; }
-      @keyframes move { to { stroke-dashoffset: -144; } }
-      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
-      @keyframes float2 { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(5px) rotate(7deg); } }
-      @keyframes twinkle { 0%,100% { opacity: .38; transform: scale(.82); } 50% { opacity: 1; transform: scale(1.16); } }
+      .dash { stroke-dasharray: 20 16; }
+      .float, .float2, .twinkle { animation: breathe 4.8s ease-in-out infinite; }
+      .float2 { animation-duration: 5.6s; }
+      .twinkle { animation-duration: 6.2s; }
+      @keyframes breathe { 0%,100% { opacity: .82; } 50% { opacity: 1; } }
     </style>
     <linearGradient id="line" x1="0" y1="36" x2="980" y2="36" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FF57D8" stop-opacity="0"/>

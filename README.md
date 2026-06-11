@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="./assets/nuoqip-kawaii-cyber-banner-v3.svg" alt="NUOQI_P 可爱赛博二次元游戏开发者横幅" width="100%" />
+<img src="./assets/nuoqip-kawaii-cyber-banner-v4.svg" alt="NUOQI_P 可爱赛博二次元游戏开发者横幅" width="100%" />
 
 # NUOQI_P
 
 **游戏开发者/MOD开发者/二次元爱好者**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&pause=1000&color=FF4FD8&center=true&vCenter=true&width=820&lines=Game+Developer;MOD+Developer;Anime+Lover;%E5%B0%91%E5%A5%B3%E7%A5%88%E7%A5%B7%E4%B8%AD..." alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&pause=1200&color=FF4FD8&center=true&vCenter=true&width=760&lines=%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E8%80%85;MOD%E5%BC%80%E5%8F%91%E8%80%85;%E4%BA%8C%E6%AC%A1%E5%85%83%E7%88%B1%E5%A5%BD%E8%80%85;%E5%B0%91%E5%A5%B3%E7%A5%88%E7%A5%B7%E4%B8%AD..." alt="Typing intro" />
 
 <br />
 
@@ -23,18 +23,18 @@
 <br />
 <br />
 
-<img src="./assets/kawaii-sparkle-line.svg" alt="Kawaii animated sparkle divider" width="82%" />
+<img src="./assets/kawaii-sparkle-line-v2.svg" alt="Kawaii animated sparkle divider" width="82%" />
 
 </div>
 
 ## 简介
 
 我是 **NUOQI_P**，一名中国游戏开发者，现就职于游戏行业。<br />
-涩涩是我的信仰，我的终极理想是为玩家提供高质量&高淫商的涩涩二次元MOD和小黄油❤️
+涩涩是我的信仰，终极理想是为玩家提供高质量&高淫商的涩涩二次元MOD和小黄油❤️
 
 <div align="center">
 
-<img src="./assets/kawaii-status-card-v2.svg" alt="NUOQI_P dynamic status card" width="82%" />
+<img src="./assets/kawaii-status-card-v3.svg" alt="NUOQI_P dynamic status card" width="82%" />
 
 </div>
 
@@ -62,17 +62,22 @@
 
 <div align="center">
 
-<img src="./assets/kawaii-project-showcase.svg" alt="NUOQI_P project showcase" width="92%" />
+<a href="https://github.com/NUOQIP/RimtalkStyleExpand">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NUOQIP&repo=RimtalkStyleExpand&hide_border=true&bg_color=100F1E&title_color=FF4FD8&text_color=F8F7FF&icon_color=00E5FF" alt="RimTalk StyleExpand repository card" />
+</a>
+<a href="https://github.com/NUOQIP/DIY_the_Spire">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NUOQIP&repo=DIY_the_Spire&hide_border=true&bg_color=100F1E&title_color=FF4FD8&text_color=F8F7FF&icon_color=00E5FF" alt="DIY the Spire repository card" />
+</a>
 
 </div>
 
 <div align="center">
 
-<img src="./assets/kawaii-sparkle-line.svg" alt="Kawaii animated sparkle divider" width="82%" />
+<img src="./assets/kawaii-sparkle-line-v2.svg" alt="Kawaii animated sparkle divider" width="82%" />
 
 <br />
 <br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:FF4FD8,45:7C4DFF,100:00E5FF&section=footer&text=%E5%B0%91%E5%A5%B3%E7%A5%88%E7%A5%B7%E4%B8%AD...&fontColor=F8F7FF&fontSize=28&fontAlignY=72&animation=twinkling" alt="少女祈祷中..." width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:FF4FD8,45:7C4DFF,100:00E5FF&section=footer&text=%E5%B0%91%E5%A5%B3%E7%A5%88%E7%A5%B7%E4%B8%AD...&fontColor=F8F7FF&fontSize=28&fontAlignY=72" alt="少女祈祷中..." width="100%" />
 
 </div>

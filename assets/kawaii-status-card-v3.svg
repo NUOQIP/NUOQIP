@@ -1,20 +1,13 @@
 <svg width="980" height="180" viewBox="0 0 980 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">NUOQI_P dynamic status card v2</title>
+  <title id="title">NUOQI_P dynamic status card v3</title>
   <desc id="desc">A cute animated game developer status card.</desc>
   <defs>
     <style>
-      .scan { stroke-dasharray: 36 20; animation: scan 8s linear infinite; }
-      .float { animation: float 3.4s ease-in-out infinite; transform-origin: center; }
-      .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; }
-      .bar1 { animation: bar1 4.4s ease-in-out infinite; transform-origin: left; }
-      .bar2 { animation: bar2 5s ease-in-out infinite; transform-origin: left; }
-      .bar3 { animation: bar3 5.6s ease-in-out infinite; transform-origin: left; }
-      @keyframes scan { to { stroke-dashoffset: -180; } }
-      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
-      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .72; } 50% { transform: scale(1.08); opacity: 1; } }
-      @keyframes bar1 { 0%,100% { transform: scaleX(.82); } 50% { transform: scaleX(.97); } }
-      @keyframes bar2 { 0%,100% { transform: scaleX(.68); } 50% { transform: scaleX(.9); } }
-      @keyframes bar3 { 0%,100% { transform: scaleX(.76); } 50% { transform: scaleX(1); } }
+      .scan { stroke-dasharray: 36 20; }
+      .float, .pulse, .bar1, .bar2, .bar3 { animation: breathe 4.6s ease-in-out infinite; }
+      .bar2 { animation-duration: 5.2s; }
+      .bar3 { animation-duration: 5.8s; }
+      @keyframes breathe { 0%,100% { opacity: .86; } 50% { opacity: 1; } }
     </style>
     <linearGradient id="border" x1="42" y1="22" x2="938" y2="158" gradientUnits="userSpaceOnUse">
       <stop stop-color="#FF57D8"/>
@@ -38,23 +31,19 @@
     <path d="M160 60L167 75L184 77L171 88L175 105L160 96L145 105L149 88L136 77L153 75L160 60Z" fill="#FFE680"/>
   </g>
 
-  <text x="224" y="66" fill="#F8F7FF" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="24" font-weight="850">当前状态：游戏开发中</text>
-  <text x="224" y="100" fill="#CFE6FF" font-family="Consolas, Menlo, Microsoft YaHei, monospace" font-size="16" font-weight="700">Building mods, playful tools, and anime-flavored systems.</text>
+  <text x="224" y="78" fill="#F8F7FF" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="25" font-weight="850">当前状态：游戏开发中</text>
 
-  <g transform="translate(224 118)">
+  <g transform="translate(224 112)">
     <rect x="0" y="0" width="190" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.13"/>
     <rect class="bar1" x="0" y="0" width="190" height="12" rx="6" fill="#FF70D9"/>
-    <text x="0" y="32" fill="#FFB7EA" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="800">CREATIVITY</text>
   </g>
-  <g transform="translate(478 118)">
+  <g transform="translate(478 112)">
     <rect x="0" y="0" width="190" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.13"/>
     <rect class="bar2" x="0" y="0" width="190" height="12" rx="6" fill="#20E7FF"/>
-    <text x="0" y="32" fill="#B9F7FF" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="800">SYSTEMS</text>
   </g>
-  <g transform="translate(732 118)">
+  <g transform="translate(732 112)">
     <rect x="0" y="0" width="120" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.13"/>
     <rect class="bar3" x="0" y="0" width="120" height="12" rx="6" fill="#FFE680"/>
-    <text x="0" y="32" fill="#FFF0A3" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="800">POLISH</text>
   </g>
 
   <g transform="translate(848 55)">

@@ -1,21 +1,12 @@
 <svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">NUOQI_P 可爱赛博二次元游戏开发者横幅 v3</title>
+  <title id="title">NUOQI_P 可爱赛博二次元游戏开发者横幅 v4</title>
   <desc id="desc">一个带有可爱动态图标、心形手柄、闪烁星星和霓虹 HUD 的中文游戏开发者横幅。</desc>
   <defs>
     <style>
-      .float-a { animation: floatA 3.8s ease-in-out infinite; transform-origin: center; }
-      .float-b { animation: floatB 4.6s ease-in-out infinite; transform-origin: center; }
-      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: center; }
-      .twinkle { animation: twinkle 1.8s ease-in-out infinite; transform-origin: center; }
-      .twinkle-slow { animation: twinkle 2.7s ease-in-out infinite; transform-origin: center; }
-      .dash { stroke-dasharray: 18 14; animation: dash 7s linear infinite; }
-      .blink { animation: blink 1.6s ease-in-out infinite; }
-      @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
-      @keyframes floatB { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(7px) rotate(5deg); } }
-      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .82; } 50% { transform: scale(1.08); opacity: 1; } }
-      @keyframes twinkle { 0%,100% { opacity: .38; transform: scale(.86); } 50% { opacity: 1; transform: scale(1.12); } }
-      @keyframes dash { to { stroke-dashoffset: -128; } }
-      @keyframes blink { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+      .float-a, .float-b, .pulse, .twinkle, .twinkle-slow, .blink { animation: breathe 4.2s ease-in-out infinite; }
+      .twinkle-slow { animation-duration: 5.4s; }
+      .dash { stroke-dasharray: 18 14; }
+      @keyframes breathe { 0%,100% { opacity: .86; } 50% { opacity: 1; } }
     </style>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#090616"/>
