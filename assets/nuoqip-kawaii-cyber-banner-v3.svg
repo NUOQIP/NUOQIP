@@ -1,5 +1,5 @@
 <svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">NUOQI_P 可爱赛博二次元游戏开发者横幅 v2</title>
+  <title id="title">NUOQI_P 可爱赛博二次元游戏开发者横幅 v3</title>
   <desc id="desc">一个带有可爱动态图标、心形手柄、闪烁星星和霓虹 HUD 的中文游戏开发者横幅。</desc>
   <defs>
     <style>
@@ -93,8 +93,7 @@
 
   <g filter="url(#textGlow)">
     <text x="326" y="154" fill="#F8F7FF" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="72" font-weight="900" letter-spacing="0">NUOQI_P</text>
-    <text x="331" y="205" fill="#FF70D9" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="30" font-weight="850" letter-spacing="0">中文游戏开发者 // 可爱赛博 Mod 工坊</text>
-    <text x="333" y="247" fill="#D7E2FF" font-family="Consolas, Menlo, Microsoft YaHei, monospace" font-size="20" font-weight="700" letter-spacing="0">C# . Java . Game Systems . LLM Tools . Anime UI</text>
+    <text x="333" y="225" fill="#D7E2FF" font-family="Consolas, Menlo, Microsoft YaHei, monospace" font-size="22" font-weight="700" letter-spacing="0">C# . Java . Game Systems . Anime Mod</text>
   </g>
 
   <g>
@@ -105,8 +104,6 @@
     <rect x="484" y="282" width="132" height="38" rx="19" fill="#20E7FF" fill-opacity="0.16" stroke="#20E7FF" stroke-opacity="0.62"/>
     <text x="509" y="307" fill="#F8F7FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="800">MOD LAB</text>
 
-    <rect x="632" y="282" width="178" height="38" rx="19" fill="#FFE680" fill-opacity="0.16" stroke="#FFE680" stroke-opacity="0.62"/>
-    <text x="657" y="307" fill="#F8F7FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="800">KAWAII BUILD</text>
   </g>
 
   <g transform="translate(910 96)">
