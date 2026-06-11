@@ -57,8 +57,10 @@
     <text x="0" y="32" fill="#FFF0A3" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="800">POLISH</text>
   </g>
 
-  <g class="pulse" transform="translate(848 55)">
+  <g transform="translate(848 55)">
+    <g class="pulse">
     <path d="M35 0L44 22L68 24L50 40L55 64L35 51L15 64L20 40L2 24L26 22L35 0Z" fill="#20E7FF"/>
     <path d="M35 18L40 30L53 32L43 40L46 53L35 46L24 53L27 40L17 32L30 30L35 18Z" fill="#F8F7FF"/>
+    </g>
   </g>
 </svg>
