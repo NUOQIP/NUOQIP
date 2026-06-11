@@ -1,5 +1,5 @@
 <svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">NUOQI_P 扁平高级风格主页横幅 v5</title>
+  <title id="title">NUOQI_P 扁平高级风格主页横幅 v6</title>
   <desc id="desc">一个扁平、对称、低噪音的二次元游戏开发者主页横幅。</desc>
   <defs>
     <style>
@@ -43,9 +43,6 @@
     <path d="M44 67H62M53 58V76" stroke="#111327" stroke-width="6" stroke-linecap="round"/>
     <circle cx="79" cy="66" r="6" fill="#25D7E8"/>
     <circle cx="93" cy="76" r="6" fill="#FF5CCD"/>
-    <path class="breathe" d="M66 84C56 76 42 83 42 96C42 109 59 116 66 126C73 116 90 109 90 96C90 83 76 76 66 84Z" fill="#FF80D8"/>
-    <circle cx="30" cy="30" r="5" fill="#25D7E8"/>
-    <circle cx="102" cy="30" r="5" fill="#FFD76B"/>
   </g>
 
   <g>
