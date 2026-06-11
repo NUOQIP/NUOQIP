@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/nuoqip-kawaii-cyber-banner.svg" alt="NUOQI_P 可爱赛博二次元游戏开发者横幅" width="100%" />
+<img src="./assets/nuoqip-kawaii-cyber-banner-v2.svg" alt="NUOQI_P 可爱赛博二次元游戏开发者横幅" width="100%" />
 
 # NUOQI_P
 
@@ -42,7 +42,7 @@
 
 <div align="center">
 
-<img src="./assets/kawaii-status-card.svg" alt="NUOQI_P dynamic status card" width="82%" />
+<img src="./assets/kawaii-status-card-v2.svg" alt="NUOQI_P dynamic status card" width="82%" />
 
 </div>
 
