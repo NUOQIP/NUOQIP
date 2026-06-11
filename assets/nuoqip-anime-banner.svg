@@ -1,0 +1,97 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NUOQI_P anime profile banner</title>
+  <desc id="desc">A dark anime-inspired game developer banner with neon pink and cyan accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#11101D"/>
+      <stop offset="0.46" stop-color="#18122B"/>
+      <stop offset="1" stop-color="#101A2E"/>
+    </linearGradient>
+    <linearGradient id="pinkCyan" x1="182" y1="71" x2="1098" y2="367" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8BD1"/>
+      <stop offset="0.52" stop-color="#B692FF"/>
+      <stop offset="1" stop-color="#8BE9FD"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="140" y1="60" x2="1140" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211A35" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#101D2F" stop-opacity="0.86"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-30%" width="140%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1 0 1 0 0 0.5 0 0 1 0 0.95 0 0 0 0.55 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <filter id="textGlow" x="-10%" y="-35%" width="120%" height="170%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="30" fill="url(#grid)"/>
+
+  <circle cx="1088" cy="76" r="172" fill="#8BE9FD" opacity="0.1" filter="url(#softGlow)"/>
+  <circle cx="168" cy="360" r="186" fill="#FF8BD1" opacity="0.13" filter="url(#softGlow)"/>
+
+  <path d="M73 332C206 298 259 373 395 337C535 300 573 202 723 214C872 226 943 323 1192 262" stroke="url(#pinkCyan)" stroke-width="2" stroke-opacity="0.5"/>
+  <path d="M76 358C242 318 296 402 432 363C591 318 607 250 738 256C889 264 964 352 1206 291" stroke="#8BE9FD" stroke-width="1" stroke-opacity="0.32"/>
+
+  <rect x="110" y="56" width="1060" height="308" rx="28" fill="url(#panel)" stroke="url(#pinkCyan)" stroke-width="2" opacity="0.98"/>
+  <rect x="136" y="82" width="1008" height="256" rx="22" stroke="#FFFFFF" stroke-opacity="0.11"/>
+
+  <g opacity="0.95">
+    <circle cx="205" cy="135" r="48" fill="#FF8BD1" opacity="0.14"/>
+    <path d="M176 139C194 109 222 109 240 139C221 163 194 163 176 139Z" fill="#F6F3FF" opacity="0.95"/>
+    <circle cx="208" cy="139" r="13" fill="#14131F"/>
+    <circle cx="212" cy="135" r="5" fill="#8BE9FD"/>
+    <path d="M170 123C190 104 222 99 248 118" stroke="#FF8BD1" stroke-width="6" stroke-linecap="round"/>
+    <path d="M166 159C193 179 226 179 252 157" stroke="#8BE9FD" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <g opacity="0.85">
+    <path d="M1025 108L1034 128L1056 130L1039 144L1044 166L1025 154L1006 166L1011 144L994 130L1016 128L1025 108Z" fill="#FFB86C"/>
+    <path d="M1094 224L1100 238L1116 240L1104 250L1108 266L1094 257L1080 266L1084 250L1072 240L1088 238L1094 224Z" fill="#8BE9FD"/>
+    <path d="M154 250L160 264L176 266L164 276L168 292L154 283L140 292L144 276L132 266L148 264L154 250Z" fill="#FF8BD1"/>
+  </g>
+
+  <g opacity="0.75">
+    <rect x="914" y="112" width="176" height="36" rx="12" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <circle cx="936" cy="130" r="6" fill="#FF8BD1"/>
+    <circle cx="958" cy="130" r="6" fill="#8BE9FD"/>
+    <circle cx="980" cy="130" r="6" fill="#FFB86C"/>
+    <path d="M924 190H1087" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+    <path d="M924 222H1038" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+    <path d="M924 254H1066" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#textGlow)">
+    <text x="322" y="168" fill="#F6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="0">NUOQI_P</text>
+    <text x="328" y="218" fill="#FF8BD1" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0">GAME DEVELOPER // MOD CREATOR</text>
+    <text x="329" y="260" fill="#BFC7FF" font-family="Consolas, Menlo, monospace" font-size="21" font-weight="600" letter-spacing="0">C# . JAVA . GAME MODS . LLM TOOLS . ANIME UI</text>
+  </g>
+
+  <g>
+    <rect x="328" y="286" width="154" height="34" rx="17" fill="#FF8BD1" fill-opacity="0.18" stroke="#FF8BD1" stroke-opacity="0.55"/>
+    <text x="352" y="309" fill="#F6F3FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">ANIME MODE</text>
+    <circle cx="462" cy="303" r="7" fill="#8BE9FD"/>
+
+    <rect x="498" y="286" width="142" height="34" rx="17" fill="#8BE9FD" fill-opacity="0.15" stroke="#8BE9FD" stroke-opacity="0.48"/>
+    <text x="523" y="309" fill="#F6F3FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">BUILD READY</text>
+
+    <rect x="656" y="286" width="150" height="34" rx="17" fill="#FFB86C" fill-opacity="0.14" stroke="#FFB86C" stroke-opacity="0.45"/>
+    <text x="681" y="309" fill="#F6F3FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">PLAYER FIRST</text>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M92 86H165" stroke="#FF8BD1" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1115 352H1188" stroke="#8BE9FD" stroke-width="3" stroke-linecap="round"/>
+    <path d="M103 101H142" stroke="#8BE9FD" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M1137 337H1176" stroke="#FF8BD1" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>
