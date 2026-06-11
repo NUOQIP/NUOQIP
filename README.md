@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/nuoqip-cyber-anime-banner.svg" alt="NUOQI_P 赛博二次元游戏开发者横幅" width="100%" />
+<img src="./assets/nuoqip-kawaii-cyber-banner.svg" alt="NUOQI_P 可爱赛博二次元游戏开发者横幅" width="100%" />
 
 # NUOQI_P
 
@@ -20,6 +20,11 @@
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=PUBLIC+REPOS&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FNUOQIP&color=ffd166&labelColor=100F1E" alt="Public repositories" />
 </a>
 
+<br />
+<br />
+
+<img src="./assets/kawaii-sparkle-line.svg" alt="Kawaii animated sparkle divider" width="82%" />
+
 </div>
 
 ## 角色档案
@@ -34,6 +39,12 @@
 当前方向    RimWorld 对话风格扩展、Slay the Spire 卡图自定义
 目标        做出有个性、好用、能被玩家记住的游戏工具
 ```
+
+<div align="center">
+
+<img src="./assets/kawaii-status-card.svg" alt="NUOQI_P dynamic status card" width="82%" />
+
+</div>
 
 ## 能量条
 
