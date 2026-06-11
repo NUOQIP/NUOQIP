@@ -1,5 +1,5 @@
 <svg width="980" height="150" viewBox="0 0 980 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">NUOQI_P flat status card v5</title>
+  <title id="title">NUOQI_P flat status card v6</title>
   <desc id="desc">一个扁平高级风格的状态卡片，只包含低频呼吸效果。</desc>
   <defs>
     <style>
@@ -32,6 +32,6 @@
 
   <g class="breathe" transform="translate(842 52)">
     <rect width="52" height="52" rx="16" fill="#111827" stroke="#FFD76B" stroke-opacity="0.6"/>
-    <path d="M26 18C20 12 10 16 10 26C10 37 22 42 26 50C30 42 42 37 42 26C42 16 32 12 26 18Z" fill="#FF5CCD"/>
+    <path d="M26 14C20 8 10 12 10 22C10 33 22 38 26 46C30 38 42 33 42 22C42 12 32 8 26 14Z" fill="#FF5CCD"/>
   </g>
 </svg>

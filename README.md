@@ -32,7 +32,7 @@
 
 <div align="center">
 
-<img src="./assets/flat-status-card-v5.svg" alt="NUOQI_P flat status card" width="82%" />
+<img src="./assets/flat-status-card-v6.svg" alt="NUOQI_P flat status card" width="82%" />
 
 </div>
 
