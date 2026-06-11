@@ -2,6 +2,8 @@
 
 <img src="./assets/nuoqip-flat-premium-banner-v6.svg" alt="NUOQI_P 扁平高级风格主页横幅" width="100%" />
 
+<img src="./assets/flat-premium-divider-v3.svg" alt="Flat premium animated divider" width="82%" />
+
 <h1>NUOQI_P</h1>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&pause=1200&color=FF4FD8&center=true&vCenter=true&width=760&lines=%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E8%80%85;MOD%E5%BC%80%E5%8F%91%E8%80%85;%E4%BA%8C%E6%AC%A1%E5%85%83%E7%88%B1%E5%A5%BD%E8%80%85;%E5%B0%91%E5%A5%B3%E7%A5%88%E7%A5%B7%E4%B8%AD..." alt="Typing intro" />
@@ -17,11 +19,6 @@
 <a href="https://github.com/NUOQIP?tab=repositories">
   <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=PUBLIC+REPOS&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FNUOQIP&color=ffd166&labelColor=100F1E" alt="Public repositories" />
 </a>
-
-<br />
-<br />
-
-<img src="./assets/flat-premium-divider-v3.svg" alt="Flat premium animated divider" width="82%" />
 
 </div>
 
