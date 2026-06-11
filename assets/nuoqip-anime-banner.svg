@@ -1,97 +1,113 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">NUOQI_P anime profile banner</title>
-  <desc id="desc">A dark anime-inspired game developer banner with neon pink and cyan accents.</desc>
+<svg width="1280" height="440" viewBox="0 0 1280 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">NUOQI_P 赛博二次元游戏开发者主页横幅</title>
+  <desc id="desc">一个霓虹赛博风格的二次元游戏开发者横幅，包含中文标题、HUD 面板、星形装饰和代码视觉元素。</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#11101D"/>
-      <stop offset="0.46" stop-color="#18122B"/>
-      <stop offset="1" stop-color="#101A2E"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070714"/>
+      <stop offset="0.36" stop-color="#17102D"/>
+      <stop offset="0.7" stop-color="#0E1434"/>
+      <stop offset="1" stop-color="#061C2C"/>
     </linearGradient>
-    <linearGradient id="pinkCyan" x1="182" y1="71" x2="1098" y2="367" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FF8BD1"/>
-      <stop offset="0.52" stop-color="#B692FF"/>
-      <stop offset="1" stop-color="#8BE9FD"/>
+    <linearGradient id="neon" x1="94" y1="52" x2="1190" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF4FD8"/>
+      <stop offset="0.48" stop-color="#7C4DFF"/>
+      <stop offset="1" stop-color="#00E5FF"/>
     </linearGradient>
-    <linearGradient id="panel" x1="140" y1="60" x2="1140" y2="366" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#211A35" stop-opacity="0.92"/>
-      <stop offset="1" stop-color="#101D2F" stop-opacity="0.86"/>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FF8A5B"/>
     </linearGradient>
-    <filter id="softGlow" x="-20%" y="-30%" width="140%" height="160%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="18" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 1 0 1 0 0 0.5 0 0 1 0 0.95 0 0 0 0.55 0"/>
+    <linearGradient id="panel" x1="114" y1="58" x2="1166" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20133C" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#071E31" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0.85 0 1 0 0 0.25 0 0 1 0 1 0 0 0 0.8 0"/>
       <feBlend in="SourceGraphic" mode="screen"/>
     </filter>
-    <filter id="textGlow" x="-10%" y="-35%" width="120%" height="170%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <filter id="textGlow" x="-10%" y="-30%" width="120%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#FFFFFF" stroke-opacity="0.055" stroke-width="1"/>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 0H8" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
   </defs>
 
-  <rect width="1280" height="420" rx="30" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="30" fill="url(#grid)"/>
+  <rect width="1280" height="440" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="440" rx="28" fill="url(#scan)"/>
 
-  <circle cx="1088" cy="76" r="172" fill="#8BE9FD" opacity="0.1" filter="url(#softGlow)"/>
-  <circle cx="168" cy="360" r="186" fill="#FF8BD1" opacity="0.13" filter="url(#softGlow)"/>
-
-  <path d="M73 332C206 298 259 373 395 337C535 300 573 202 723 214C872 226 943 323 1192 262" stroke="url(#pinkCyan)" stroke-width="2" stroke-opacity="0.5"/>
-  <path d="M76 358C242 318 296 402 432 363C591 318 607 250 738 256C889 264 964 352 1206 291" stroke="#8BE9FD" stroke-width="1" stroke-opacity="0.32"/>
-
-  <rect x="110" y="56" width="1060" height="308" rx="28" fill="url(#panel)" stroke="url(#pinkCyan)" stroke-width="2" opacity="0.98"/>
-  <rect x="136" y="82" width="1008" height="256" rx="22" stroke="#FFFFFF" stroke-opacity="0.11"/>
-
-  <g opacity="0.95">
-    <circle cx="205" cy="135" r="48" fill="#FF8BD1" opacity="0.14"/>
-    <path d="M176 139C194 109 222 109 240 139C221 163 194 163 176 139Z" fill="#F6F3FF" opacity="0.95"/>
-    <circle cx="208" cy="139" r="13" fill="#14131F"/>
-    <circle cx="212" cy="135" r="5" fill="#8BE9FD"/>
-    <path d="M170 123C190 104 222 99 248 118" stroke="#FF8BD1" stroke-width="6" stroke-linecap="round"/>
-    <path d="M166 159C193 179 226 179 252 157" stroke="#8BE9FD" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <g opacity="0.75" filter="url(#glow)">
+    <circle cx="1040" cy="64" r="184" fill="#00E5FF" opacity="0.13"/>
+    <circle cx="166" cy="372" r="220" fill="#FF4FD8" opacity="0.16"/>
+    <circle cx="648" cy="36" r="140" fill="#7C4DFF" opacity="0.11"/>
   </g>
 
-  <g opacity="0.85">
-    <path d="M1025 108L1034 128L1056 130L1039 144L1044 166L1025 154L1006 166L1011 144L994 130L1016 128L1025 108Z" fill="#FFB86C"/>
-    <path d="M1094 224L1100 238L1116 240L1104 250L1108 266L1094 257L1080 266L1084 250L1072 240L1088 238L1094 224Z" fill="#8BE9FD"/>
-    <path d="M154 250L160 264L176 266L164 276L168 292L154 283L140 292L144 276L132 266L148 264L154 250Z" fill="#FF8BD1"/>
-  </g>
+  <path d="M62 344C210 298 276 404 433 344C569 292 623 205 768 219C918 233 980 330 1218 252" stroke="url(#neon)" stroke-width="2" stroke-opacity="0.6"/>
+  <path d="M70 374C234 326 314 414 461 375C618 333 652 265 779 274C935 285 1004 362 1210 304" stroke="#00E5FF" stroke-width="1.5" stroke-opacity="0.4"/>
 
-  <g opacity="0.75">
-    <rect x="914" y="112" width="176" height="36" rx="12" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <circle cx="936" cy="130" r="6" fill="#FF8BD1"/>
-    <circle cx="958" cy="130" r="6" fill="#8BE9FD"/>
-    <circle cx="980" cy="130" r="6" fill="#FFB86C"/>
-    <path d="M924 190H1087" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
-    <path d="M924 222H1038" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
-    <path d="M924 254H1066" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+  <rect x="84" y="54" width="1112" height="332" rx="30" fill="url(#panel)" stroke="url(#neon)" stroke-width="2.5"/>
+  <rect x="111" y="82" width="1058" height="276" rx="23" stroke="#FFFFFF" stroke-opacity="0.13"/>
+  <path d="M84 134H1196" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <path d="M248 54V386" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <path d="M874 54V386" stroke="#FFFFFF" stroke-opacity="0.08"/>
+
+  <g transform="translate(132 112)" filter="url(#glow)">
+    <circle cx="64" cy="64" r="58" fill="#FF4FD8" opacity="0.16"/>
+    <path d="M23 67C47 28 83 28 107 67C82 100 48 100 23 67Z" fill="#F8F7FF"/>
+    <circle cx="66" cy="67" r="17" fill="#080715"/>
+    <circle cx="72" cy="61" r="6" fill="#00E5FF"/>
+    <path d="M18 47C45 21 86 17 113 42" stroke="#FF4FD8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M16 94C49 121 88 119 116 91" stroke="#00E5FF" stroke-width="4" stroke-linecap="round"/>
+    <path d="M36 128L64 150L92 128" stroke="url(#gold)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 
   <g filter="url(#textGlow)">
-    <text x="322" y="168" fill="#F6F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="800" letter-spacing="0">NUOQI_P</text>
-    <text x="328" y="218" fill="#FF8BD1" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="0">GAME DEVELOPER // MOD CREATOR</text>
-    <text x="329" y="260" fill="#BFC7FF" font-family="Consolas, Menlo, monospace" font-size="21" font-weight="600" letter-spacing="0">C# . JAVA . GAME MODS . LLM TOOLS . ANIME UI</text>
+    <text x="305" y="156" fill="#F8F7FF" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="74" font-weight="900" letter-spacing="0">NUOQI_P</text>
+    <text x="309" y="207" fill="#FF4FD8" font-family="Segoe UI, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="31" font-weight="800" letter-spacing="0">中文游戏开发者 // 二次元 Mod 工坊</text>
+    <text x="312" y="249" fill="#BFD7FF" font-family="Consolas, Menlo, Microsoft YaHei, monospace" font-size="20" font-weight="700" letter-spacing="0">C# . Java . Game Systems . LLM Tools . Anime UI</text>
   </g>
 
   <g>
-    <rect x="328" y="286" width="154" height="34" rx="17" fill="#FF8BD1" fill-opacity="0.18" stroke="#FF8BD1" stroke-opacity="0.55"/>
-    <text x="352" y="309" fill="#F6F3FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">ANIME MODE</text>
-    <circle cx="462" cy="303" r="7" fill="#8BE9FD"/>
+    <rect x="310" y="282" width="138" height="36" rx="18" fill="#FF4FD8" fill-opacity="0.19" stroke="#FF4FD8" stroke-opacity="0.65"/>
+    <text x="335" y="306" fill="#F8F7FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="800">GAME DEV</text>
+    <circle cx="427" cy="300" r="7" fill="#00E5FF"/>
 
-    <rect x="498" y="286" width="142" height="34" rx="17" fill="#8BE9FD" fill-opacity="0.15" stroke="#8BE9FD" stroke-opacity="0.48"/>
-    <text x="523" y="309" fill="#F6F3FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">BUILD READY</text>
+    <rect x="464" y="282" width="132" height="36" rx="18" fill="#00E5FF" fill-opacity="0.16" stroke="#00E5FF" stroke-opacity="0.58"/>
+    <text x="489" y="306" fill="#F8F7FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="800">MOD LAB</text>
 
-    <rect x="656" y="286" width="150" height="34" rx="17" fill="#FFB86C" fill-opacity="0.14" stroke="#FFB86C" stroke-opacity="0.45"/>
-    <text x="681" y="309" fill="#F6F3FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="700">PLAYER FIRST</text>
+    <rect x="612" y="282" width="158" height="36" rx="18" fill="#FFD166" fill-opacity="0.15" stroke="#FFD166" stroke-opacity="0.58"/>
+    <text x="637" y="306" fill="#F8F7FF" font-family="Consolas, Menlo, monospace" font-size="15" font-weight="800">ANIME BUILD</text>
+  </g>
+
+  <g transform="translate(919 100)" opacity="0.95">
+    <rect x="0" y="0" width="210" height="202" rx="18" fill="#FFFFFF" fill-opacity="0.065" stroke="#FFFFFF" stroke-opacity="0.13"/>
+    <rect x="18" y="18" width="174" height="34" rx="11" fill="#100F1E" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <circle cx="40" cy="35" r="6" fill="#FF4FD8"/>
+    <circle cx="62" cy="35" r="6" fill="#00E5FF"/>
+    <circle cx="84" cy="35" r="6" fill="#FFD166"/>
+    <path d="M135 16L144 35L165 37L149 50L154 71L135 60L116 71L121 50L105 37L126 35L135 16Z" fill="url(#gold)"/>
+    <text x="22" y="88" fill="#00E5FF" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700">SYSTEM BOOT</text>
+    <path d="M22 107H180" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="7" stroke-linecap="round"/>
+    <path d="M22 132H132" stroke="#FF4FD8" stroke-opacity="0.44" stroke-width="7" stroke-linecap="round"/>
+    <path d="M22 157H166" stroke="#00E5FF" stroke-opacity="0.38" stroke-width="7" stroke-linecap="round"/>
+    <text x="22" y="184" fill="#F8F7FF" font-family="Consolas, Menlo, monospace" font-size="13" font-weight="700">READY: PLAYER_TOOLS</text>
   </g>
 
   <g opacity="0.9">
-    <path d="M92 86H165" stroke="#FF8BD1" stroke-width="3" stroke-linecap="round"/>
-    <path d="M1115 352H1188" stroke="#8BE9FD" stroke-width="3" stroke-linecap="round"/>
-    <path d="M103 101H142" stroke="#8BE9FD" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
-    <path d="M1137 337H1176" stroke="#FF8BD1" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M1118 306L1125 322L1143 324L1129 336L1133 354L1118 344L1103 354L1107 336L1093 324L1111 322L1118 306Z" fill="#00E5FF"/>
+    <path d="M150 258L158 277L180 279L163 293L168 315L150 303L132 315L137 293L120 279L142 277L150 258Z" fill="#FF4FD8"/>
+    <path d="M115 86H190" stroke="#FF4FD8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M1097 357H1172" stroke="#00E5FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M127 103H168" stroke="#00E5FF" stroke-width="2" stroke-linecap="round"/>
+    <path d="M1124 340H1165" stroke="#FF4FD8" stroke-width="2" stroke-linecap="round"/>
   </g>
 </svg>

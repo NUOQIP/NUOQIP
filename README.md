@@ -1,116 +1,113 @@
-<!--
-Profile setup:
-Create a public repository named NUOQIP, then place this README.md at the root
-and keep assets/nuoqip-anime-banner.svg in the assets folder.
--->
-
 <div align="center">
 
-<img src="./assets/nuoqip-anime-banner.svg" alt="NUOQI_P profile banner" width="100%" />
+<img src="./assets/nuoqip-anime-banner.svg" alt="NUOQI_P 赛博二次元游戏开发者横幅" width="100%" />
 
 # NUOQI_P
 
-**Game Developer / Mod Creator / Anime-Aesthetic Builder**
+**中文游戏开发者 / Mod Creator / 二次元风格工具匠人**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=FF8BD1&center=true&vCenter=true&width=720&lines=Game+Developer+%2F+Mod+Creator;Building+playable+tools+with+anime+polish;C%23+%2B+Java+%2B+Game+Systems" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=23&pause=1000&color=FF4FD8&center=true&vCenter=true&width=820&lines=Chinese+Game+Developer;Mod+Creator+%2F+Gameplay+Toolsmith;C%23+%2B+Java+%2B+Anime+UI+Energy;Making+games+more+personal" alt="Typing intro" />
 
 <br />
 
 <a href="https://github.com/NUOQIP">
-  <img src="https://komarev.com/ghpvc/?username=NUOQIP&style=for-the-badge&color=ff8bd1&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=NUOQIP&style=for-the-badge&color=ff4fd8&label=PROFILE+VIEWS" alt="Profile views" />
 </a>
 <a href="https://github.com/NUOQIP?tab=followers">
-  <img src="https://img.shields.io/github/followers/NUOQIP?style=for-the-badge&label=FOLLOWERS&color=8be9fd&labelColor=14131f" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/followers/NUOQIP?style=for-the-badge&label=FOLLOWERS&color=00e5ff&labelColor=100F1E" alt="GitHub followers" />
 </a>
 <a href="https://github.com/NUOQIP?tab=repositories">
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=PUBLIC+REPOS&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FNUOQIP&color=ffb86c&labelColor=14131f" alt="Public repositories" />
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=PUBLIC+REPOS&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FNUOQIP&color=ffd166&labelColor=100F1E" alt="Public repositories" />
 </a>
 
 </div>
 
-## About
+## 角色档案
 
-I build game experiences, modding tools, and creative systems that make games feel more personal.
-
-- Game developer focused on playful systems, modding workflows, and player-facing creativity.
-- Currently building with C# and Java through RimWorld and Slay the Spire mod projects.
-- Interested in LLM-assisted storytelling, vector retrieval, custom card art, and anime-inspired UI polish.
-- I like tools that feel small, sharp, responsive, and a little magical.
-
-## Current Save File
+我是 **NUOQI_P**，一名中文游戏开发者。<br />
+我喜欢把游戏系统、Mod 工具、AI 辅助创作和二次元视觉揉在一起，做出能让玩家真正拿来玩的东西。
 
 ```txt
-Class       Game Developer
-Subclass    Mod Creator
-Main Quest  Build expressive game systems and creator tools
-Side Quest  Add anime-level polish to everything worth showing
-Loadout     C# / Java / Game Mods / LLM Tools / UI Details
+身份        中文游戏开发者
+专精        游戏 Mod / 创作者工具 / 玩法系统 / 二次元 UI
+主语言      C# / Java
+当前方向    RimWorld 对话风格扩展、Slay the Spire 卡图自定义
+目标        做出有个性、好用、能被玩家记住的游戏工具
 ```
 
-## Tech Loadout
+## 能量条
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Game_Developer-14131F?style=for-the-badge&logo=github&logoColor=FF8BD1" alt="Game Developer" />
-<img src="https://img.shields.io/badge/C%23-7A5CFF?style=for-the-badge&logo=dotnet&logoColor=white" alt="C sharp" />
-<img src="https://img.shields.io/badge/Java-FF7A90?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
-<img src="https://img.shields.io/badge/Game_Modding-1E1E2E?style=for-the-badge&logo=steam&logoColor=8BE9FD" alt="Game modding" />
-<img src="https://img.shields.io/badge/LLM_Tools-8BE9FD?style=for-the-badge&logo=openai&logoColor=14131F" alt="LLM tools" />
-<img src="https://img.shields.io/badge/Anime_UI-FF8BD1?style=for-the-badge&logo=sparkpost&logoColor=14131F" alt="Anime UI" />
-<img src="https://img.shields.io/badge/Markdown-14131F?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
+<img src="https://img.shields.io/badge/Game_Dev-100F1E?style=for-the-badge&logo=unity&logoColor=00E5FF" alt="Game Developer" />
+<img src="https://img.shields.io/badge/中文开发者-FF4FD8?style=for-the-badge&labelColor=100F1E" alt="中文开发者" />
+<img src="https://img.shields.io/badge/Mod_Creator-7C4DFF?style=for-the-badge&logo=steam&logoColor=white" alt="Mod Creator" />
+<img src="https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=dotnet&logoColor=white" alt="C sharp" />
+<img src="https://img.shields.io/badge/Java-FF6B6B?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/LLM_Tools-00E5FF?style=for-the-badge&logo=openai&logoColor=100F1E" alt="LLM tools" />
+<img src="https://img.shields.io/badge/Anime_UI-FF4FD8?style=for-the-badge&logo=sparkpost&logoColor=white" alt="Anime UI" />
+<img src="https://img.shields.io/badge/Game_Systems-FFD166?style=for-the-badge&logo=godotengine&logoColor=100F1E" alt="Game Systems" />
 
 </div>
 
-## Featured Projects
+## 代表作
 
-| Project | What it is | Stack |
+| 项目 | 亮点 | 技术栈 |
 | --- | --- | --- |
-| [RimTalk StyleExpand](https://github.com/NUOQIP/RimtalkStyleExpand) | A RimTalk style-expansion module that uses semantic chunking, embeddings, retrieval, and prompt injection to let game dialogue follow custom writing styles. | C# / RimWorld / LLM / Embeddings |
-| [DIY the Spire](https://github.com/NUOQIP/DIY_the_Spire) | A Slay the Spire card-art customization mod with in-game image selection, card masks, pack management, and instant switching. | Java / ModTheSpire / BaseMod |
+| [RimTalk StyleExpand](https://github.com/NUOQIP/RimtalkStyleExpand) | 为 RimTalk 扩展“文风系统”：语义切分、向量检索、LLM 分析、Prompt 注入，让游戏对话拥有自定义写作风格。 | C# / RimWorld / LLM / Embedding |
+| [DIY the Spire](https://github.com/NUOQIP/DIY_the_Spire) | 《杀戮尖塔》卡图自定义 Mod：支持普通版/升级版卡图、遮罩、卡包管理和即时切换。 | Java / ModTheSpire / BaseMod |
 
 <div align="center">
 
 <a href="https://github.com/NUOQIP/RimtalkStyleExpand">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NUOQIP&repo=RimtalkStyleExpand&hide_border=true&bg_color=14131F&title_color=FF8BD1&text_color=F6F3FF&icon_color=8BE9FD" alt="RimTalk StyleExpand repository card" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NUOQIP&repo=RimtalkStyleExpand&hide_border=true&bg_color=100F1E&title_color=FF4FD8&text_color=F8F7FF&icon_color=00E5FF" alt="RimTalk StyleExpand repository card" />
 </a>
 <a href="https://github.com/NUOQIP/DIY_the_Spire">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NUOQIP&repo=DIY_the_Spire&hide_border=true&bg_color=14131F&title_color=FF8BD1&text_color=F6F3FF&icon_color=8BE9FD" alt="DIY the Spire repository card" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=NUOQIP&repo=DIY_the_Spire&hide_border=true&bg_color=100F1E&title_color=FF4FD8&text_color=F8F7FF&icon_color=00E5FF" alt="DIY the Spire repository card" />
 </a>
 
 </div>
 
-## GitHub Dashboard
+## 开发者面板
 
 <div align="center">
 
-<img height="172" src="https://github-readme-stats.vercel.app/api?username=NUOQIP&show_icons=true&include_all_commits=true&hide_border=true&bg_color=14131F&title_color=FF8BD1&text_color=F6F3FF&icon_color=8BE9FD" alt="GitHub stats" />
-<img height="172" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NUOQIP&layout=compact&hide_border=true&bg_color=14131F&title_color=FF8BD1&text_color=F6F3FF" alt="Top languages" />
+<img height="176" src="https://github-readme-stats.vercel.app/api?username=NUOQIP&show_icons=true&include_all_commits=true&hide_border=true&bg_color=100F1E&title_color=FF4FD8&text_color=F8F7FF&icon_color=00E5FF" alt="GitHub stats" />
+<img height="176" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NUOQIP&layout=compact&hide_border=true&bg_color=100F1E&title_color=FF4FD8&text_color=F8F7FF" alt="Top languages" />
 
 <br />
 
-<img src="https://streak-stats.demolab.com?user=NUOQIP&theme=dark&hide_border=true&background=14131F&ring=FF8BD1&fire=FFB86C&currStreakLabel=8BE9FD&sideLabels=F6F3FF&dates=A8A3B8" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com?user=NUOQIP&theme=dark&hide_border=true&background=100F1E&ring=FF4FD8&fire=FFD166&currStreakLabel=00E5FF&sideLabels=F8F7FF&dates=AFA7C8" alt="GitHub streak" />
 
 </div>
 
-## Achievement Board
+## 活动轨迹
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=NUOQIP&theme=radical&no-frame=true&no-bg=true&margin-w=6&margin-h=6&column=4" alt="GitHub trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NUOQIP&bg_color=100F1E&color=F8F7FF&line=FF4FD8&point=00E5FF&area=true&area_color=7C4DFF&hide_border=true" alt="GitHub activity graph" />
 
 </div>
 
-## Dev Notes
+## 成就展柜
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=NUOQIP&theme=radical&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=4" alt="GitHub trophies" />
+
+</div>
+
+## 开发信条
 
 ```txt
-Good games feel alive.
-Good tools make creation faster.
-Good UI has a soul.
+游戏要有灵魂。
+工具要让创作变快。
+界面要让人想点开。
+玩家感受到的每一秒，都值得认真设计。
 ```
 
 <div align="center">
 
-<sub>Thanks for visiting. May your build pass, your ideas land, and your profile look excellent.</sub>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:FF4FD8,45:7C4DFF,100:00E5FF&section=footer&text=BUILD%20THE%20NEXT%20SAVE%20FILE&fontColor=F8F7FF&fontSize=24&fontAlignY=72&animation=twinkling" alt="Footer wave" width="100%" />
 
 </div>
