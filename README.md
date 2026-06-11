@@ -50,11 +50,6 @@
 
 <h2>代表作</h2>
 
-| 项目 | 亮点 | 技术栈 |
-| --- | --- | --- |
-| [RimTalk StyleExpand](https://github.com/NUOQIP/RimtalkStyleExpand) | 为 RimTalk 扩展“文风系统”：语义切分、向量检索、LLM 分析、Prompt 注入，让游戏对话拥有自定义写作风格。 | C# / RimWorld / LLM / Embedding |
-| [DIY the Spire](https://github.com/NUOQIP/DIY_the_Spire) | 《杀戮尖塔》卡图自定义 Mod：支持普通版/升级版卡图、遮罩、卡包管理和即时切换。 | Java / ModTheSpire / BaseMod |
-
 <div align="center">
 
 <a href="https://github.com/NUOQIP/RimtalkStyleExpand">
